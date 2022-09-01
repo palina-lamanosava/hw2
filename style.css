@@ -1,0 +1,108 @@
+
+:root {
+    --primary-backgroud-color:#FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+body ul {
+    list-style: none;
+}
+body {
+    background-color: var(--primary-backgroud-color);
+    color: var(--primary-text-color);
+}
+/* logo */
+.logo {
+    color: #000000;
+    text-decoration: none;
+}
+
+.accent-logo {
+    color: var(--accent-color);
+}
+/* main nav */
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+.main-nav a:hover,
+.main-nav a:focus {
+color: var(--accent-color);
+}
+/* main nav contacts */
+
+.main-nav-contacts a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.main-nav-contacts a:hover,
+.main-nav-contacts a:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.hero {
+    background-color: #757575;
+    color: #FFFFFF;
+}
+.hero button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border-color: var(--accent-color);
+}
+/* benefits */
+
+
+.benefits p {
+    color: var(--secondary-text-color);
+}
+/* projects */
+
+.projects b {
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* our team */
+.team {
+    background-color: #F5F4FA;
+}
+.team p {
+    color: var(--secondary-text-color);
+}
+.team a:hover,
+.team a:focus {
+    color: var(--accent-color);
+}
+/* clients */
+
+
+/* footer */
+footer {
+    background-color: #2F303A;;
+}
+.logo-bottom {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+address {
+    color: #FFFFFF;
+}
+
+address > a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.social > b {
+    color: #FFFFFF;
+}
+.subscribe > b{
+    color: #FFFFFF;
+}
+.subscribe > button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border-color: var(--accent-color);
+}
