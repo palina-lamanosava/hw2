@@ -13,14 +13,15 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
 }
-
-body ul {
+ul {
     list-style: none;
+}
+a {
+    text-decoration: none;
 }
 /* logo */
 .logo {
     color: #000000;
-    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -41,7 +42,6 @@ body ul {
 /* main nav */
 
 .main-nav a {
-    text-decoration: none;
     color: var(--primary-text-color);
 }
 .main-nav a:hover,
@@ -52,7 +52,6 @@ color: var(--accent-color);
 
 .main-nav-contacts a {
     color: var(--secondary-text-color);
-    text-decoration: none;
 }
 .main-nav-contacts a:hover,
 .main-nav-contacts a:focus {
@@ -141,20 +140,19 @@ h2 {
 
 
 /* footer */
-footer {
+#footer {
+    color: #FFFFFF;
     background-color: #2F303A;
-    
 }
+
 .logo-bottom {
     color:#FFFFFF;
-    text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
 address {
-    color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -163,7 +161,6 @@ address {
 
 address > a {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -177,12 +174,7 @@ footer b {
     line-height: 1.14;
     text-transform: uppercase;
 }
-.social > b {
-    color: #FFFFFF;
-}
-.subscribe > b{
-    color: #FFFFFF;
-}
+
 .subscribe > button {
     background-color: var(--accent-color);
     color: #FFFFFF;
