@@ -1,0 +1,188 @@
+
+:root {
+    --primary-backgroud-color:#FFFFFF;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: var(--primary-backgroud-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* logo */
+.logo {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    }
+
+.accent-logo {
+    color: var(--accent-color);
+}
+
+/* nav */
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+/* main nav */
+
+.main-nav a {
+    color: var(--primary-text-color);
+}
+.main-nav a:hover,
+.main-nav a:focus {
+color: var(--accent-color);
+}
+/* main nav contacts */
+
+.main-nav-contacts a {
+    color: var(--secondary-text-color);
+}
+.main-nav-contacts a:hover,
+.main-nav-contacts a:focus {
+    color: var(--accent-color);
+}
+/* hero */
+.hero {
+    background-color: #757575;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* benefits */
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+   
+}
+
+.benefits p {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.benefits h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+   }
+
+/* projects */
+
+.projects b {
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+/* our team */
+.team {
+    background-color: #F5F4FA;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team p {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team a:hover,
+.team a:focus {
+    color: var(--accent-color);
+}
+/* clients */
+
+
+/* footer */
+#footer {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.logo-bottom {
+    color:#FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+address > a {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+footer b {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.subscribe > button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    border-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
