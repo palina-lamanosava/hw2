@@ -69,6 +69,11 @@ img {
 }
 
 /* nav */
+header >.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .nav {
     display: flex;
     align-items: center;
@@ -79,8 +84,8 @@ img {
     letter-spacing: 0.02em;
 }
 
-.nav > ul a:hover,
-.nav > ul a:focus {
+header ul a:hover,
+header ul a:focus {
 color: var(--accent-color);
 }
 
@@ -88,8 +93,6 @@ color: var(--accent-color);
 .main-nav {
     display: flex;
     width: 294px;
-    margin-right: 331px;
-    margin: 0 331px 0 0;
     padding: 0px;
 }
 
@@ -111,6 +114,10 @@ color: var(--accent-color);
     margin: 0px;
     padding: 0px;
 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .main-nav-contacts >.item:not(:last-child) {
@@ -159,11 +166,14 @@ color: var(--accent-color);
 /* benefits */
 .benefits .list {
     display: flex;
+    justify-content: space-between;
     margin: 0px;
     padding: 0px;
-    justify-content: space-between;
 }
 
+.benefits .item {
+    width: 270px;
+}
 .content {
 padding-top: 94px;
 padding-bottom: 94px;
@@ -206,7 +216,6 @@ padding-bottom: 94px;
     display: inline-block;
     width: 370px;
     padding: 27px 0;
-    border: 2px solid transparent;
 
     color: #FFFFFF;
     background-color: rgba(47, 48, 58, 0.8);
@@ -227,6 +236,11 @@ padding-bottom: 94px;
     justify-content: space-between;
 }
 
+.team .item {
+    background-color: var(--primary-backgroud-color);
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .team h3 {
     margin: 30px 0 0 0;
 
@@ -252,7 +266,7 @@ padding-bottom: 94px;
 
 .team .social {
     display: flex;
-    margin: 16px 32px ;
+    margin: 16px 32px 24px;
     justify-content: space-between;
 }
 /* clients */
@@ -264,6 +278,7 @@ padding-bottom: 94px;
 /* footer */
 footer .container {
     display: flex;
+    align-items: baseline;
     padding: 60px 15px;
 }
 #footer {
@@ -323,8 +338,14 @@ footer .social {
     justify-content: space-between;
 }
 
+footer  form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
 .subscribe > button {
-    display: inline-block;
+    display: block;
     width: 200px;
     min-height: 50px;
     margin: 0;
@@ -342,13 +363,12 @@ footer .social {
     letter-spacing: 0.06em;
 }
 
-
 footer input {
     width: 358px;
     min-height: 50px;
     border: 1px solid rgba(255, 255, 255, 30%);
     border-radius: 4px;
-    margin-right: 7px;
+    margin-right: 12px;
 
     font-family: inherit;
     background-color: inherit;
