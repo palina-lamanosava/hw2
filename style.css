@@ -8,6 +8,7 @@
 
 html {
     box-sizing: border-box;
+    width: 1600px;
 }
 
 *,
@@ -130,13 +131,21 @@ color: var(--accent-color);
 /* hero */
 
 .hero-container {
+    height: 600px;
+
     text-align: center;
+    background-color: #757575;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(./images/Header\ img.jpg);
 }
+
 .hero h1 {
-    margin: 0 auto 30px;
+    display: inline-block;
+    margin: 200px auto 30px;
     width: 696px;
 
-    background-color: #757575;
+   
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -145,6 +154,7 @@ color: var(--accent-color);
     text-transform: uppercase;
 }
 .hero button {
+    display: block;
     width: 200px;
     min-height: 50px;
     margin: 0 auto;
@@ -174,6 +184,34 @@ color: var(--accent-color);
 .benefits .item {
     width: 270px;
 }
+
+.benefits .item::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-color: #F5F4FA;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.benefits .item:nth-child(1)::before {
+    background-image: url(./images/antenna\ 1.png);
+}
+
+.benefits .item:nth-child(2)::before {
+    background-image: url(./images/clock\ 1.png);
+
+}
+
+.benefits .item:nth-child(3)::before {
+    background-image: url(./images/diagram\ 1.png);
+}
+
+.benefits .item:nth-child(4)::before {
+    background-image: url(./images/astronaut\ 1.png);
+}
+
 .content {
 padding-top: 94px;
 padding-bottom: 94px;
