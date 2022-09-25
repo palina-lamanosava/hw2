@@ -558,3 +558,85 @@ footer input {
 
 
 /* footer end  */
+
+/* Portfolio page start */
+
+/* projects filter list start */
+
+#projects {
+    border-top: 1px solid #ECECEC;
+}
+#projects h2 {
+    display: none;
+}
+
+.projects-filter-list {
+    display: flex;
+    width: 611px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.projects-filter-list button {
+    padding: 6px 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.projects-filter-list button:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-backgroud-color);
+    cursor: pointer;
+}
+
+/* projects filter list end  */
+
+/* projects examples list start  */
+
+.projects-examples-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1272px;
+}
+
+.projects-examples-list h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+
+.projects-examples-list p {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    margin: 4px 0 0 0;
+
+}
+
+.projects-examples-list div {
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+
+.projects-examples-list >.cards:hover {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor: pointer;
+}
+/* projects examples list end  */
